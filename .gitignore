@@ -1,0 +1,70 @@
+# Node
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Build / production
+build/
+dist/
+out/
+coverage/
+
+# React / CRA
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+/.pnp
+.pnp.js
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Lockfiles (optional to ignore — keep if you want to track)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs / editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Environment files
+.env
+.env.*.secret
+
+# Temporary / system
+temp/
+tmp/
+*.tmp
+*.swp
+
+# Mac / Windows
+*.DS_Store
+$RECYCLE.BIN/
+
+# Certificates
+*.pem
+*.key
+
+# Misc
+/.cache
+/.next
+/.nuxt
+
+# Ignore uploaded files or local test outputs
+uploads/
+*.sqlite
+*.db
+
+# Ignore artifacts
+*.log
